@@ -136,6 +136,27 @@ def parse_lodestone_date(date_str, time_str=None):
     except ValueError:
         return None
 
+RE_TITLE_DATE = re.compile(
+    r"(?:begins?|starts?|on|from)\s+(\w+ \d{1,2})(?:!|$|\s)",
+    re.IGNORECASE,
+)
+
+def extract_date_from_title(title, reference_time):
+    """pull event start date from title text like 'Begins February 26!'"""
+    m = RE_TITLE_DATE.search(title)
+    if not m:
+        return None
+    try:
+        d = datetime.strptime(m.group(1), "%B %d").replace(
+            year=reference_time.year, tzinfo=timezone.utc,
+        )
+        # if the parsed month is way before the announcement, it's probably next year
+        if d.month < reference_time.month - 2:
+            d = d.replace(year=reference_time.year + 1)
+        return d
+    except ValueError:
+        return None
+
 def extract_dates_from_lodestone_page(url):
     r = get(url)
     if not r:
@@ -162,6 +183,7 @@ def get_ffxiv_events():
             topic_url = item.get("url", "")
             post_time = datetime.fromisoformat(item["time"].replace("Z", "+00:00"))
             start, end = None, None
+            # try scraping the special event page for a full date range
             tr = get(topic_url)
             if tr:
                 soup = BeautifulSoup(tr.text, "html.parser")
@@ -172,6 +194,9 @@ def get_ffxiv_events():
                         start, end = extract_dates_from_lodestone_page(full)
                         if start:
                             break
+            # fallback: parse date from the title itself ("Begins February 26!")
+            if not start:
+                start = extract_date_from_title(title, post_time)
             if not start:
                 start = post_time
             if not end:
