@@ -13,6 +13,7 @@ import hashlib
 import requests
 from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
+from dateutil.rrule import DAILY, WEEKLY
 from icalendar import Calendar, Event
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
@@ -24,14 +25,17 @@ SESSION.headers.update(HEADERS)
 # ──────────────────────────────────────────────────────────────────────────────
 
 def get(url, **kw):
-    try:
-        time.sleep(0.5)
-        r = SESSION.get(url, timeout=15, **kw)
-        r.raise_for_status()
-        return r
-    except Exception as e:
-        print(f"  [WARN] GET {url}: {e}", file=sys.stderr)
-        return None
+    # longer pause for lodestone pages - they rate limit aggressively in CI
+    delay = 2.0 if "finalfantasyxiv.com" in url else 0.5
+    for attempt in range(3):
+        try:
+            time.sleep(delay if attempt == 0 else 2.0 * (attempt + 1))
+            r = SESSION.get(url, timeout=20, **kw)
+            r.raise_for_status()
+            return r
+        except Exception as e:
+            print(f"  [WARN] GET {url} (attempt {attempt+1}/3): {e}", file=sys.stderr)
+    return None
 
 def stable_uid(source, key):
     h = hashlib.sha1(f"{source}:{key}".encode()).hexdigest()[:12]
@@ -48,6 +52,36 @@ def make_event(summary, dtstart, dtend=None, description="", url="", source=""):
         ev.add("url", url)
     ev.add("uid",     stable_uid(source, summary + str(dtstart)))
     ev.add("dtstamp", datetime.now(timezone.utc))
+    return ev
+
+RECURRING_FFXIV = [
+    ("FFXIV Weekly Reset",   "TU", 8,  WEEKLY),
+    ("FFXIV Daily Reset",    None, 15, DAILY),
+    ("FFXIV Jumbo Cactpot",  "SA", 20, WEEKLY),
+]
+
+RECURRING_PSO2 = [
+    ("PSO2 NGS Weekly Reset", "WE", 13, WEEKLY),
+    ("PSO2 NGS Daily Reset",  None, 13, DAILY),
+]
+
+def make_recurring(summary, byday, hour, freq, source):
+    ev = Event()
+    start = datetime(2025, 1, 1, hour, 0, 0, tzinfo=timezone.utc)
+    # pick a start date that lands on the right weekday
+    if byday:
+        day_map = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
+        while start.weekday() != day_map[byday]:
+            start += timedelta(days=1)
+    ev.add("summary", summary)
+    ev.add("dtstart", start)
+    ev.add("dtend", start + timedelta(hours=1))
+    ev.add("uid", stable_uid(source, summary))
+    ev.add("dtstamp", datetime.now(timezone.utc))
+    rrule = {"freq": "weekly" if freq == WEEKLY else "daily"}
+    if byday:
+        rrule["byday"] = byday
+    ev.add("rrule", rrule)
     return ev
 
 def write_cal(events, name, desc, outfile):
@@ -252,6 +286,8 @@ def get_pso2_events():
 
 def main():
     ffxiv = get_ffxiv_events()
+    for summary, byday, hour, freq in RECURRING_FFXIV:
+        ffxiv.append(make_recurring(summary, byday, hour, freq, "ffxiv"))
     print(f"FFXIV total: {len(ffxiv)}")
     write_cal(ffxiv,
               "FFXIV Events",
@@ -259,6 +295,8 @@ def main():
               "ffxiv.ics")
 
     pso2 = get_pso2_events()
+    for summary, byday, hour, freq in RECURRING_PSO2:
+        pso2.append(make_recurring(summary, byday, hour, freq, "pso2"))
     print(f"PSO2 total:  {len(pso2)}")
     write_cal(pso2,
               "PSO2 NGS Events",
