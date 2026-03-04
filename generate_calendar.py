@@ -75,7 +75,8 @@ def make_recurring(summary, byday, hour, freq, source):
             start += timedelta(days=1)
     ev.add("summary", summary)
     ev.add("dtstart", start)
-    ev.add("dtend", start + timedelta(hours=1))
+    duration = timedelta(minutes=1) if freq == DAILY else timedelta(hours=1)
+    ev.add("dtend", start + duration)
     ev.add("uid", stable_uid(source, summary))
     ev.add("dtstamp", datetime.now(timezone.utc))
     rrule = {"freq": "weekly" if freq == WEEKLY else "daily"}
