@@ -306,6 +306,42 @@ def get_pso2_events():
     return events
 
 # ──────────────────────────────────────────────────────────────────────────────
+# PSO2 NGS – UQ predictions from nekobot.io
+# ──────────────────────────────────────────────────────────────────────────────
+
+UQ_API = "https://nekobot.io/api/pso2/uq-prediction"
+UQ_NOTE = "Source: nekobot.io/pso2/global/uq-predictions \u2014 predictions may shift"
+
+def get_ngs_uq_predictions():
+    events = []
+    print("Fetching NGS UQ predictions from nekobot.io\u2026")
+    r = get(UQ_API)
+    if not r:
+        return events
+    data = r.json().get("ngs", {})
+    predictions = data.get("next_uq_predictions", [])
+    # top 3 by probability - always include #1, skip rest if < 50%
+    top = sorted(predictions, key=lambda p: p["probability"], reverse=True)[:3]
+    for i, p in enumerate(top):
+        prob = p["probability"]
+        if prob < 0.5 and i > 0:
+            continue
+        start = datetime.fromtimestamp(p["start"], tz=timezone.utc)
+        is_concert = p.get("is_concert", False)
+        summary = "[PSO2] NGS Concert + UQ" if is_concert else "[PSO2] NGS Urgent Quest"
+        desc = f"Probability: {prob*100:.0f}%\n{UQ_NOTE}"
+        ev = Event()
+        ev.add("summary", summary)
+        ev.add("dtstart", start)
+        ev.add("dtend", start + timedelta(hours=1))
+        ev.add("description", desc)
+        ev.add("uid", stable_uid("uq-prediction", str(p["start"])))
+        ev.add("dtstamp", datetime.now(timezone.utc))
+        events.append(ev)
+        print(f"  {summary} @ {start.isoformat()} ({prob*100:.0f}%)")
+    return events
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Entry point
 # ──────────────────────────────────────────────────────────────────────────────
 
@@ -320,6 +356,7 @@ def main():
               "ffxiv.ics")
 
     pso2 = get_pso2_events()
+    pso2.extend(get_ngs_uq_predictions())
     for summary, byday, hour, freq in RECURRING_PSO2:
         pso2.append(make_recurring(summary, byday, hour, freq, "pso2"))
     print(f"PSO2 total:  {len(pso2)}")
