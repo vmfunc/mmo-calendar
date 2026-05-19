@@ -6,39 +6,155 @@ CALNAME:FFXIV Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-SUMMARY:[FFXIV] Fan Festival 2026 in Anaheim Begins April 24!
-DTSTART:20260424T000000Z
-DTEND:20260508T000000Z
-DTSTAMP:20260426T074446Z
-UID:e219a4308017@mmo-calendar
-DESCRIPTION:The long-awaited North American Fan Festival 2026 commences th
- is Friday in Anaheim!
-URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/ba8c4846e21ccb8
- 73a8770c42a15280ed688e8cb
+SUMMARY:[FFXIV] Play Free for up to 4 Days in the Latest Free Login Campai
+ gn!
+DTSTART:20260515T083000Z
+DTEND:20260529T083000Z
+DTSTAMP:20260519T095238Z
+UID:e1c7eb7103a7@mmo-calendar
+DESCRIPTION:In the hope that would-be adventurers can experience all that 
+ FFXIV has to offer\, we are pleased to announce the latest Free Login Camp
+ aign.\n\n\n\nFollow the Trail to the Heavens! In Patch 7.5\, you can face 
+ Enuo in the Unmaking\, take a stroll through Windurst: The Third Walk in t
+ he FINAL FANTASY XI alliance raid crossover\, and leap into battle in Arch
+ eia Harmonias\, an all-new arena for Crystalline Conflict.\n\nA host of ot
+ her additions and adjustments will make your time in Eorzea more streamlin
+ ed and enjoyable\, including increased furnishing placement limits\, the c
+ onsolidation of dyes\, and additional pieces of gear that can now be conve
+ rted to outfit glamour or stored in the armoire.\n\n With the introduction
+  of Patch 7.5\, the Shadowbringers expansion can now be played as part of 
+ the FINAL FANTASY XIV Starter Edition. The expansion will be automatically
+  registered to your account if you already own the Starter Edition\, so wh
+ y not take this opportunity to jump into the adventure?
+URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/9abe0a9087a62bb
+ c886fa2fbd189379445092a97
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FFXIV] Jollibee x FINAL FANTASY XIV Collaboration Campaign - Get 
- the Eat Chicken Emote!
-DTSTART:20260417T141000Z
-DTEND:20260501T141000Z
-DTSTAMP:20260426T074448Z
-UID:2bb1740a2baf@mmo-calendar
-DESCRIPTION:FINAL FANTASY XIV and Jollibee join forces to fuel Warriors of
-  Light starting Tuesday\, April 21\, 2026! For a limited time\, purchase c
- ollaboration meals or merchandise to earn your own Eat Chicken emote!\n\nF
- urthermore\, in celebration of Fan Festival 2026 in Anaheim\, Jollibee's A
- naheim store will be decked out in FFXIV-themed decor from April 21 to May
-  31! Jollibee x FINAL FANTASY XIV stickers will be available for customers
-  at the Anaheim store while supplies last.\n\nRead on for details.
-URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/2ca9077926ee36f
- 137c7969e60447b75dcaadf17
+SUMMARY:[FFXIV] The Maiden's Rhapsody Returns May 8!
+DTSTART:20260501T080100Z
+DTEND:20260515T080100Z
+DTSTAMP:20260519T095240Z
+UID:f71762420924@mmo-calendar
+DESCRIPTION:Experience the intriguing tale bridging Hydaelyn and Vana'diel
+  as The Maiden's Rhapsody─a past collaboration with FFXI─returns to th
+ e realm once more! Embark on a journey with one of Vana'diel's heroes and 
+ discover what twists of fate brought her to our realm.
+URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/2e44e0fa9b12c05
+ 7ed8ab12b5af966c452eeddd9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] PvP Series 10 Draws to a Close as Series 11 Begins!
+DTSTART:20260428T093200Z
+DTEND:20260512T093200Z
+DTSTAMP:20260519T095242Z
+UID:69565ae2a051@mmo-calendar
+DESCRIPTION:After myriad battles fought and won\, PvP Series 10 has ended.
+  Rewards for Series 10 may be claimed until the end of Series 11.\n\nFor t
+ hose eager to dive back into the fray\, we are pleased to announce that Pv
+ P Series 11 has officially begun! The more you play\, the more bountiful t
+ he rewards\, so we encourage all players to try their hand at PvP!\n\nRead
+  on for details.
+URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/3eff5caeb29649b
+ c49281e45cb4f301be2ccfc23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] All Worlds Maintenance (May 6): Follow-up
+DTSTART:20260507T083000Z
+DTEND:20260507T143000Z
+DTSTAMP:20260519T095243Z
+UID:004ebd514d5f@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/7bf8f3912f78571b2
+ 473b10234c94b52779103b4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] All Worlds Maintenance (May 6)
+DTSTART:20260506T020000Z
+DTEND:20260506T080000Z
+DTSTAMP:20260519T095243Z
+UID:cd682032f27f@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/d954e5a78efa28d03
+ e8219090e4ddf8c20caa4fd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] Mog Station Maintenance (May 6)
+DTSTART:20260505T060000Z
+DTEND:20260505T120000Z
+DTSTAMP:20260519T095243Z
+UID:390f6974ba1a@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/e8384c32695b31ae7
+ 816336549e03c31871912a4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] The Lodestone Maintenance (Apr. 27): Follow-up
+DTSTART:20260428T092000Z
+DTEND:20260428T152000Z
+DTSTAMP:20260519T095243Z
+UID:b4efea44df16@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/a30d44372e26d9b3b
+ 2cfdae824784c0148ee8e82
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] COMPANION App Maintenance (Apr. 27): Follow-up
+DTSTART:20260428T091800Z
+DTEND:20260428T151800Z
+DTSTAMP:20260519T095243Z
+UID:9362b20a3e9c@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/510e89fb5edc2a823
+ ef73e6888773949f153d466
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] Online Store Maintenance (Apr. 27): Follow-up
+DTSTART:20260428T091300Z
+DTEND:20260428T151300Z
+DTSTAMP:20260519T095243Z
+UID:5d3d76afca3b@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/2af5a993d519f8d99
+ 51fd0aeff786b01245e6a34
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] All Worlds Maintenance (Apr. 27): Follow-up
+DTSTART:20260428T090800Z
+DTEND:20260428T150800Z
+DTSTAMP:20260519T095243Z
+UID:473b748530db@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/1bb23d78516c06650
+ e720770beababd7e605c5a4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] Mog Station Maintenance (Apr. 27): Follow-up
+DTSTART:20260428T063000Z
+DTEND:20260428T123000Z
+DTSTAMP:20260519T095243Z
+UID:d13bc507b996@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/88a29d1b4f0ff738b
+ c55b92bbea43b9aac1989c8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] Home World Transfer / Data Center Travel Emergency Mainten
+ ance (Apr. 26): Follow-up
+DTSTART:20260427T070200Z
+DTEND:20260427T130200Z
+DTSTAMP:20260519T095243Z
+UID:1456e502da2d@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/a2e6deadd921e84d1
+ eaef1ba6f5df40955ec64c0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] Home World Transfer / Data Center Travel Emergency Mainten
+ ance (Apr. 26)
+DTSTART:20260427T060500Z
+DTEND:20260427T120500Z
+DTSTAMP:20260519T095243Z
+UID:f6939ff1e923@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/d949a61d5a4dd859a
+ 02fca7796d7adefecca9df7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[FFXIV] [(Chaos)] Several Areas Emergency Maintenance on the Sprig
  gan World (Apr. 24)
 DTSTART:20260424T143500Z
 DTEND:20260424T203500Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:af2f6e23be72@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/7bb53a06193488de4
  6008e27abd9b4906eed00a8
@@ -47,7 +163,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Mog Station Maintenance (Apr. 27)
 DTSTART:20260424T124500Z
 DTEND:20260424T184500Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:22ef1f22bfbf@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/caa30f6723199b5d0
  e289b71e8505ad43d282c66
@@ -56,7 +172,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] The Lodestone Maintenance (Apr. 27)
 DTSTART:20260424T110000Z
 DTEND:20260424T170000Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:702e4c9a6379@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/ef4902a5b0f938fe8
  4076ea15e166dcc7957d2af
@@ -65,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store Maintenance (Apr. 27)
 DTSTART:20260424T110000Z
 DTEND:20260424T170000Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:f02116044d9a@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/57250189e12c7aaf7
  e881da7af5fa71af8c11dfd
@@ -74,7 +190,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Maintenance (Apr. 27)
 DTSTART:20260424T110000Z
 DTEND:20260424T170000Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:f897243d93a7@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/a61d9efab70d940fc
  74e8e2ea85dcb9e9d3b9eb0
@@ -83,7 +199,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] COMPANION App Maintenance (Apr. 27)
 DTSTART:20260424T110000Z
 DTEND:20260424T170000Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:693ac38acc21@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/2216c30f1cc99aa06
  e6d63a9a21289ff37a31d3e
@@ -92,7 +208,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Mog Station Maintenance (Apr. 23)
 DTSTART:20260422T050000Z
 DTEND:20260422T110000Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:4d9741bffc9f@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/e55758bbe17ed97e6
  56a160372766d5ef083f593
@@ -101,7 +217,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store / Mog Station Emergency Maintenance (Apr. 3)
 DTSTART:20260403T050000Z
 DTEND:20260403T110000Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:b163867e13dc@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/33e36ddae9e301bdc
  e846c434fd363b89fa203ee
@@ -111,7 +227,7 @@ SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Apr. 2): Follow-up
   2
 DTSTART:20260402T112500Z
 DTEND:20260402T172500Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:0bc1b6da96be@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/06893ddc6ff1f7172
  9f600296b70c5dfd2b84547
@@ -120,107 +236,16 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Apr. 2): Follow-up
 DTSTART:20260402T092500Z
 DTEND:20260402T152500Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:a350dfe07bb9@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/2e2092ff7e43675f0
  b546e67884e8f1b899d5ad0
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Apr. 1-2)
-DTSTART:20260331T070000Z
-DTEND:20260331T130000Z
-DTSTAMP:20260426T074449Z
-UID:93f1c3024322@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/707f2dc68a43afc47
- 431f64ad248c2f6143c02ee
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] All Worlds Maintenance (Mar. 23): Follow-up
-DTSTART:20260324T083000Z
-DTEND:20260324T143000Z
-DTSTAMP:20260426T074449Z
-UID:3754b78ea390@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/9a352a4219b25c9a5
- ef56e0c5b7cf08fa5145542
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] All Worlds Maintenance (Mar. 23)
-DTSTART:20260319T085500Z
-DTEND:20260319T145500Z
-DTSTAMP:20260426T074449Z
-UID:11a46e1a08a1@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/11af869c3256c3f68
- 63fc1bc2b83ae1699871be1
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] Mog Station Maintenance (Mar. 18)
-DTSTART:20260317T060000Z
-DTEND:20260317T120000Z
-DTSTAMP:20260426T074449Z
-UID:2ff13374a7fc@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/6518c655a4edb03c7
- b6ca113668d48abf4d25fe6
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Mar. 13): Follow-u
- p
-DTSTART:20260313T011000Z
-DTEND:20260313T071000Z
-DTSTAMP:20260426T074449Z
-UID:a8591dce4607@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/99e536c3bc693edef
- 2f599fed157a48a1b385cbd
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] All Worlds Maintenance (Mar. 10): Follow-up
-DTSTART:20260311T081800Z
-DTEND:20260311T141800Z
-DTSTAMP:20260426T074449Z
-UID:46444484f329@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/c867cca720d37feaa
- 709e2fbb928752e8af31ffc
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Mar. 13)
-DTSTART:20260311T070000Z
-DTEND:20260311T130000Z
-DTSTAMP:20260426T074449Z
-UID:c97e3a3c3dff@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/d72269f2a3b9b5251
- 132a35c65f8b79036443652
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] Mog Station Maintenance (Mar. 11)
-DTSTART:20260310T130000Z
-DTEND:20260310T190000Z
-DTSTAMP:20260426T074449Z
-UID:010b4c8e68b0@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/96c7e5a800c9d507f
- d9468526e5d48f0f033cc4b
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] COMPANION App Maintenance (Mar. 10)
-DTSTART:20260309T104000Z
-DTEND:20260309T164000Z
-DTSTAMP:20260426T074449Z
-UID:f4d4d408fbae@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/f39201e724d61644d
- 856fc20f2b1a10eedbdaebd
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] All Worlds Maintenance (Mar. 10)
-DTSTART:20260309T104000Z
-DTEND:20260309T164000Z
-DTSTAMP:20260426T074449Z
-UID:b6c482a6b05d@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/f873ec677b707139c
- ed0e84b15c3f436a2e7e8a0
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FFXIV Weekly Reset
 DTSTART:20250107T080000Z
 DTEND:20250107T090000Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:0b71f4900c1b@mmo-calendar
 RRULE:FREQ=WEEKLY;BYDAY=TU
 END:VEVENT
@@ -228,7 +253,7 @@ BEGIN:VEVENT
 SUMMARY:FFXIV Daily Reset
 DTSTART:20250101T150000Z
 DTEND:20250101T150100Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:2960a5f764ed@mmo-calendar
 RRULE:FREQ=DAILY
 END:VEVENT
@@ -236,7 +261,7 @@ BEGIN:VEVENT
 SUMMARY:FFXIV Jumbo Cactpot
 DTSTART:20250104T200000Z
 DTEND:20250104T210000Z
-DTSTAMP:20260426T074449Z
+DTSTAMP:20260519T095243Z
 UID:90dfe07608ac@mmo-calendar
 RRULE:FREQ=WEEKLY;BYDAY=SA
 END:VEVENT
