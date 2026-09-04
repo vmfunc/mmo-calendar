@@ -10,7 +10,7 @@ SUMMARY:[FFXIV] Moogle Treasure Trove - The First Hunt for Astronomy Comme
  nces September 9!
 DTSTART:20260902T093000Z
 DTEND:20260916T093000Z
-DTSTAMP:20260903T105333Z
+DTSTAMP:20260904T105330Z
 UID:0a204f654124@mmo-calendar
 DESCRIPTION:It gives us great pleasure to announce the return of the Moogl
  e Treasure Trove starting Wednesday\, September 9\, 2026!\n\nThis Moogle T
@@ -24,7 +24,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] The Rising Returns August 27!
 DTSTART:20260820T080000Z
 DTEND:20260903T080000Z
-DTSTAMP:20260903T105335Z
+DTSTAMP:20260904T105333Z
 UID:5e61ffd31af7@mmo-calendar
 DESCRIPTION:FINAL FANTASY XIV celebrates its 13th anniversary on Thursday
  \, August 27. Join us for the Rising as the realm commemorates another yea
@@ -36,7 +36,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] The Moonfire Faire Begins August 12!
 DTSTART:20260812T000000Z
 DTEND:20260826T000000Z
-DTSTAMP:20260903T105337Z
+DTSTAMP:20260904T105335Z
 UID:c169856f3ac8@mmo-calendar
 DESCRIPTION:Summer is here once more\, with fireworks lighting the night s
  ky and festive decorations adorning the streets below. The sandy shores of
@@ -46,25 +46,38 @@ URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/3817357c7556773
  cf1a07db2646a6d92245ada43
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FFXIV] Gather One\, Gather All─Yo-kai Watch Returns to Eorzea!
-DTSTART:20260728T092100Z
-DTEND:20260811T092100Z
-DTSTAMP:20260903T105340Z
-UID:45d910b58d44@mmo-calendar
-DESCRIPTION:Once more\, a horde of Yo-kai descends upon Eorzea!\n\n Join i
- n the fun and get your paws on weapons\, mounts\, a framer’s kit\, and m
- inions─including Jibanyan and Whisper! This time around\, the event feat
- ures three new indoor furnishings: wibbly-wobbly Jibanyan\, wibbly-wobbly 
- Komasan\, and wibbly-wobbly USApyon.
-URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/5e9868fb47977cb
- d45effe2a50bdb78a2270430c
+SUMMARY:[FFXIV] The Lodestone Maintenance (Sep. 7)
+DTSTART:20260904T060000Z
+DTEND:20260904T120000Z
+DTSTAMP:20260904T105335Z
+UID:fe7130ee72b7@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/ea80facc7dd36c06e
+ 1b38cc0af7ab942afad462f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] All Worlds Maintenance (Sep. 7)
+DTSTART:20260904T060000Z
+DTEND:20260904T120000Z
+DTSTAMP:20260904T105335Z
+UID:7e5174f17afc@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/412e688db6331c0d3
+ 6ea6a9fb75b31a9dc66d354
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[FFXIV] Companion App Maintenance (Sep. 7)
+DTSTART:20260904T060000Z
+DTEND:20260904T120000Z
+DTSTAMP:20260904T105335Z
+UID:dc870ada3b31@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/6d298a535a7d9b8b1
+ 07fd9db576b5ed743a2784e
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Aug. 27): Follow-u
  p
 DTSTART:20260827T085000Z
 DTEND:20260827T145000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:712702c9c319@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/ec6f5a965d66c1308
  6998890d83f48e7e87be85c
@@ -73,7 +86,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Aug. 27)
 DTSTART:20260825T070000Z
 DTEND:20260825T130000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:a3c3196f00df@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/00b6489d26b34bb07
  4a78e5a67a62d6e61a0a974
@@ -82,7 +95,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Emergency Maintenance (Aug. 13): Follow-up
 DTSTART:20260814T084000Z
 DTEND:20260814T144000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:87a3543e7d96@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/21c8f8b7bc350888d
  fddb0c2d7658cbaac116b4a
@@ -91,7 +104,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Emergency Maintenance (Aug. 13)
 DTSTART:20260813T060000Z
 DTEND:20260813T120000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:6dff70412f12@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/499ae10a3167b988b
  19e1885d361e8b669898532
@@ -100,7 +113,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Aug. 12)
 DTSTART:20260810T070000Z
 DTEND:20260810T130000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:c62c3cac4267@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/f2acc66dbe0f86692
  2d37363867182db1c7f75b4
@@ -109,7 +122,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Emergency Maintenance (Aug. 6): Follow-up
 DTSTART:20260807T093000Z
 DTEND:20260807T153000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:b4f0ef91a171@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/e5d67a9d4d9a6dd77
  f12bb0024b9709e4cc8d13b
@@ -118,7 +131,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Emergency Maintenance (Aug. 6-7)
 DTSTART:20260807T024500Z
 DTEND:20260807T084500Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:9a27b1eb9b30@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/a9bc7fcaa86d38992
  95edb02b11d4211279dd294
@@ -127,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Mog Station Maintenance (Jul. 30)
 DTSTART:20260729T060000Z
 DTEND:20260729T120000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:df7afb32cc42@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/15028a888f9449814
  6ac92c6f8a7659099481d62
@@ -136,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] COMPANION App Maintenance (Jul. 27): Follow-up
 DTSTART:20260728T091500Z
 DTEND:20260728T151500Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:a575c4c484c5@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/a5590b073b7f426a2
  f10c4fbee7a0f34691fea1e
@@ -145,7 +158,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] The Lodestone Maintenance (Jul. 27): Follow-up
 DTSTART:20260728T090000Z
 DTEND:20260728T150000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:bc336dc19328@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/f4e7008dbc33f58be
  5e9d3558f08922264bf7440
@@ -154,7 +167,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Maintenance (Jul. 27): Follow-up
 DTSTART:20260728T090000Z
 DTEND:20260728T150000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:b5d539251ec0@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/cb39397d0ed5420c2
  a2e177b865da1bccdd6e464
@@ -163,7 +176,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] The Lodestone Maintenance (Jul. 27)
 DTSTART:20260724T051500Z
 DTEND:20260724T111500Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:f2623a476f89@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/8e109ee561f34bd84
  fdf7285b2a7bd8ed1e2d90e
@@ -172,7 +185,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Maintenance (Jul. 27)
 DTSTART:20260724T051500Z
 DTEND:20260724T111500Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:f8d9acaf0b6f@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/9eeba70ae0bd44928
  67f1cd4e3cd09015d45f401
@@ -181,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] COMPANION App Maintenance (Jul. 27)
 DTSTART:20260724T051500Z
 DTEND:20260724T111500Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:31a091654ca1@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/a764b06ab3af5dc2f
  2f28d9834b222a2cbdaeae6
@@ -190,7 +203,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Community Event Entry Form Maintenance (Jul. 26)
 DTSTART:20260724T010000Z
 DTEND:20260724T070000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:4ffdb41dcd25@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/b08dd1505cfb10415
  6e4827f089825cbd1879f14
@@ -200,7 +213,7 @@ SUMMARY:[FFXIV] [Crystal] Balmung World Emergency Maintenance (Jul. 20): F
  ollow-up
 DTSTART:20260721T063000Z
 DTEND:20260721T123000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:27613f8b6e15@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/a2bdc41d2cce8e12f
  c9a25efb9ce0886734405a8
@@ -209,43 +222,16 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] [Crystal] Balmung World Emergency Maintenance (Jul. 20)
 DTSTART:20260721T034500Z
 DTEND:20260721T094500Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:216f52a75fa7@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/192ee0e1b780bd4c2
  875e4ace75f0763e93267af
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Jul. 17)
-DTSTART:20260715T070000Z
-DTEND:20260715T130000Z
-DTSTAMP:20260903T105340Z
-UID:c2cd18566169@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/977bb97d818da396a
- 886f2146943d26fe8b33f6f
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] Mog Station Maintenance (Jul. 8)
-DTSTART:20260707T050000Z
-DTEND:20260707T110000Z
-DTSTAMP:20260903T105340Z
-UID:656646a8a11c@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/942e93aaba8b21de7
- 0246d8e181b30148e21ab3f
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFXIV] All Worlds Maintenance (Jun. 22): Follow-up
-DTSTART:20260623T093000Z
-DTEND:20260623T153000Z
-DTSTAMP:20260903T105340Z
-UID:6612cd5e59f1@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/e5da770bbf5ab9205
- 30230716b9a3d3c47f92730
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FFXIV Weekly Reset
 DTSTART:20250107T080000Z
 DTEND:20250107T090000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:0b71f4900c1b@mmo-calendar
 RRULE:FREQ=WEEKLY;BYDAY=TU
 END:VEVENT
@@ -253,7 +239,7 @@ BEGIN:VEVENT
 SUMMARY:FFXIV Daily Reset
 DTSTART:20250101T150000Z
 DTEND:20250101T150100Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:2960a5f764ed@mmo-calendar
 RRULE:FREQ=DAILY
 END:VEVENT
@@ -261,7 +247,7 @@ BEGIN:VEVENT
 SUMMARY:FFXIV Jumbo Cactpot
 DTSTART:20250104T200000Z
 DTEND:20250104T210000Z
-DTSTAMP:20260903T105340Z
+DTSTAMP:20260904T105335Z
 UID:90dfe07608ac@mmo-calendar
 RRULE:FREQ=WEEKLY;BYDAY=SA
 END:VEVENT
