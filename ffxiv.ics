@@ -10,7 +10,7 @@ SUMMARY:[FFXIV] Fan Festival 2026 in Tokyo Begins October 30 – Streaming
   Info Reminder!
 DTSTART:20261030T000000Z
 DTEND:20261113T000000Z
-DTSTAMP:20261030T122330Z
+DTSTAMP:20261031T115353Z
 UID:300890fc88a0@mmo-calendar
 DESCRIPTION:The long-awaited Fan Festival 2026 in Tokyo commences this wee
  kend!
@@ -22,7 +22,7 @@ SUMMARY:[FFXIV] Announcing the Fan Festival Group Pose Screenshot Campaign
  !
 DTSTART:20261023T170000Z
 DTEND:20261106T170000Z
-DTSTAMP:20261030T122333Z
+DTSTAMP:20261031T115355Z
 UID:e8759e8907e4@mmo-calendar
 DESCRIPTION:FFXIV Fan Festival 2026 in Tokyo is almost here! To celebrate
  \, we'll be hosting a group pose screenshot campaign starting Friday\, Oct
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Saints' Wake Begins October 15
 DTSTART:20261015T000000Z
 DTEND:20261029T000000Z
-DTSTAMP:20261030T122335Z
+DTSTAMP:20261031T115357Z
 UID:ccb886d2939b@mmo-calendar
 DESCRIPTION:That spookiest of seasons is upon us again! With thoroughfares
   and plazas across the realm festooned with frightful decorations\, a few 
@@ -48,23 +48,19 @@ URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/10d899ee4fcc8eb
  a8414f464a712e14200e8e1f8
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FFXIV] Fall Guys Collaboration Event Returns October 7!
-DTSTART:20260930T080000Z
-DTEND:20261014T080000Z
-DTSTAMP:20261030T122337Z
-UID:b65ba10aa1e2@mmo-calendar
-DESCRIPTION:We are delighted to announce that the Fall Guys collaboration 
- will be blundering back to a realm near you very soon!\n\nJoin a Blundervi
- lle show and get your hands on a whole host of exquisite prizes\, includin
- g fetching attire\, a marvelous mount\, framer's kits\, and more!
-URL:https://na.finalfantasyxiv.com/lodestone/topics/detail/e1eb49ab626ea7b
- 71795aab17ac5f335d8ace6de
+SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Nov. 1)
+DTSTART:20261031T070000Z
+DTEND:20261031T130000Z
+DTSTAMP:20261031T115358Z
+UID:585b7df9b6af@mmo-calendar
+URL:https://na.finalfantasyxiv.com/lodestone/news/detail/dd452cbe526e23a82
+ 298c2ee2ae7f6b80f0e9c85
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[FFXIV] Mog Station Maintenance (Oct. 30)
 DTSTART:20261028T070000Z
 DTEND:20261028T130000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:8981756a49f7@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/67dcafc95be136e3a
  124a38750278fe2b0b26879
@@ -73,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Companion App Emergency Maintenance (Oct. 21): Follow-up
 DTSTART:20261023T101233Z
 DTEND:20261023T161233Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:e5dba3653223@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/05c15ca5d117e79c5
  99784fe51a0eb2f59705529
@@ -82,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Forums Emergency Maintenance (Oct. 21): Follow-up
 DTSTART:20261023T050000Z
 DTEND:20261023T110000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:a91b59c867a0@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/d5c3ff17ea7ff7673
  43963bfab874d51abad7c10
@@ -92,7 +88,7 @@ SUMMARY:[FFXIV] Config Data Sharing Function Emergency Maintenance (Oct. 2
  1-22): Completed
 DTSTART:20261022T124221Z
 DTEND:20261022T184221Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:5761e0160f92@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/4eb5c9dd1faeec95e
  00b80c8a3402a848488dc3b
@@ -102,7 +98,7 @@ SUMMARY:[FFXIV] Configuration Sharing Emergency Maintenance (Oct. 21-22):
  Follow-up
 DTSTART:20261022T084500Z
 DTEND:20261022T144500Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:6947ee8da632@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/e652ee8d855920298
  d0cd5a5e1e921a2da1005f1
@@ -112,7 +108,7 @@ SUMMARY:[FFXIV] Companion App Emergency Maintenance (Oct. 21-22): Follow-u
  p
 DTSTART:20261022T084500Z
 DTEND:20261022T144500Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:cf216ccf820e@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/761644f915e3d2325
  1c7dcff075c311cf975541a
@@ -121,7 +117,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Forum Emergency Maintenance (Oct. 21)
 DTSTART:20261022T034000Z
 DTEND:20261022T094000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:5b75cff3f054@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/2cff4ee28b321afc5
  89d9b5fc11f47ff76d34826
@@ -131,7 +127,7 @@ SUMMARY:[FFXIV] Support Center Emergency Maintenance (Oct. 21-22): Follow-
  up
 DTSTART:20261021T170000Z
 DTEND:20261021T230000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:4fd21c0c5984@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/3947c9177434c32c8
  8b412e167db552379bae398
@@ -140,7 +136,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Support Center Emergency Maintenance  (Oct. 21)
 DTSTART:20261021T113500Z
 DTEND:20261021T173500Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:f9e145fb22dd@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/5135cac154fce6c65
  574c296549f2ccca4828cec
@@ -149,7 +145,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Configuration Sharing Emergency Maintenance (Oct. 21-22)
 DTSTART:20261021T080000Z
 DTEND:20261021T140000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:f45594591cdb@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/6d466735667e70a72
  aa243bb2ebc68ab94df0e3f
@@ -158,7 +154,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Companion App Emergency Maintenance (Oct. 21-22)
 DTSTART:20261021T080000Z
 DTEND:20261021T140000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:d36c0b1b83de@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/3615c08e7bdbc1d0c
  1514c5de0704240bc80e631
@@ -167,7 +163,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Oct. 23)
 DTSTART:20261021T070000Z
 DTEND:20261021T130000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:05e95d3637a1@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/65e07a20eae9a15fe
  de92e5d1ff5bdce8be50644
@@ -176,7 +172,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Maintenance (Oct. 19): Follow-up
 DTSTART:20261020T084500Z
 DTEND:20261020T144500Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:3a9fc2e7ac84@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/70b303db0732cd2aa
  db62fa320f7fffd5822a45d
@@ -185,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] All Worlds Maintenance (Oct. 19)
 DTSTART:20261019T020000Z
 DTEND:20261019T080000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:f899bf19caf9@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/a9b9f27eb74244f1c
  3453c4eb5e136b1379ffbe7
@@ -195,7 +191,7 @@ SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Oct. 15): Follow-u
  p
 DTSTART:20261015T084000Z
 DTEND:20261015T144000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:88b485da94db@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/448373a5407559f85
  da1c184feb5fffab00bdf31
@@ -205,7 +201,7 @@ SUMMARY:[FFXIV] Japan Data Center Cross-World Functions Emergency Maintena
  nce (Oct. 14)
 DTSTART:20261014T133000Z
 DTEND:20261014T193000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:0d243b8d63c8@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/bfc25036646ddfda2
  cab54ce48f8925b167cfe6b
@@ -214,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store / Mog Station Maintenance (Oct. 15)
 DTSTART:20261013T110000Z
 DTEND:20261013T170000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:7599f590ee9f@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/465fb9e7ecf6389c2
  6bae65f07a1d8094ecdc737
@@ -223,7 +219,7 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] The Lodestone Maintenance (Oct. 12): Follow-up
 DTSTART:20261013T093000Z
 DTEND:20261013T153000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:71166967069f@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/6fa0976a245e26848
  621e87cc786702e9b842951
@@ -232,25 +228,16 @@ BEGIN:VEVENT
 SUMMARY:[FFXIV] Online Store Emergency Maintenance (Oct. 12): Follow-up
 DTSTART:20261013T093000Z
 DTEND:20261013T153000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:ab6605cd12ad@mmo-calendar
 URL:https://na.finalfantasyxiv.com/lodestone/news/detail/46a19f133b12a2495
  8ed02eb2d4092b1d8d02d2b
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FFXIV] Companion App Maintenance (Oct. 12-13): Follow-up
-DTSTART:20261013T091700Z
-DTEND:20261013T151700Z
-DTSTAMP:20261030T122338Z
-UID:f9c7d0c7409b@mmo-calendar
-URL:https://na.finalfantasyxiv.com/lodestone/news/detail/914b6c80cacd062d4
- d590b53077c1d9e896bd3c3
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FFXIV Weekly Reset
 DTSTART:20250107T080000Z
 DTEND:20250107T090000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:0b71f4900c1b@mmo-calendar
 RRULE:FREQ=WEEKLY;BYDAY=TU
 END:VEVENT
@@ -258,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:FFXIV Daily Reset
 DTSTART:20250101T150000Z
 DTEND:20250101T150100Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:2960a5f764ed@mmo-calendar
 RRULE:FREQ=DAILY
 END:VEVENT
@@ -266,7 +253,7 @@ BEGIN:VEVENT
 SUMMARY:FFXIV Jumbo Cactpot
 DTSTART:20250104T200000Z
 DTEND:20250104T210000Z
-DTSTAMP:20261030T122338Z
+DTSTAMP:20261031T115358Z
 UID:90dfe07608ac@mmo-calendar
 RRULE:FREQ=WEEKLY;BYDAY=SA
 END:VEVENT
