@@ -41,7 +41,7 @@ def stable_uid(source, key):
     h = hashlib.sha1(f"{source}:{key}".encode()).hexdigest()[:12]
     return f"{h}@mmo-calendar"
 
-def make_event(summary, dtstart, dtend=None, description="", url="", source=""):
+def make_event(summary, dtstart, dtend=None, description="", url="", source="", uid_start=None):
     ev = Event()
     ev.add("summary", summary)
     ev.add("dtstart", dtstart)
@@ -50,7 +50,7 @@ def make_event(summary, dtstart, dtend=None, description="", url="", source=""):
         ev.add("description", description)
     if url:
         ev.add("url", url)
-    ev.add("uid",     stable_uid(source, summary + str(dtstart)))
+    ev.add("uid",     stable_uid(source, summary + str(uid_start if uid_start is not None else dtstart)))
     ev.add("dtstamp", datetime.now(timezone.utc))
     return ev
 
@@ -171,6 +171,48 @@ def extract_dates_from_lodestone_page(url):
         parse_lodestone_date(m.group(3), m.group(4)),
     )
 
+
+# Inline topic schedules sometimes link to a short URL instead of a dated
+# special page. Only use a single explicitly labelled, fully timed range.
+_INLINE_DATE = (
+    r"(?:(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+)?"
+    r"(\w+ \d{1,2},? \d{4})\s+at\s+"
+    r"(\d{1,2}:\d{2}\s+[ap]\.m\.)\s+\((PST|PDT|UTC|GMT)\)"
+)
+RE_INLINE_RANGE = re.compile(
+    r"\bfrom\s+" + _INLINE_DATE + r"\s+to\s+" + _INLINE_DATE,
+    re.IGNORECASE,
+)
+
+
+def extract_inline_schedule(soup):
+    headings = [h for h in soup.find_all(re.compile(r"^h[1-6]$"))
+                if h.get_text(" ", strip=True).casefold() == "event schedule"]
+    if len(headings) != 1:
+        return None, None
+    parts = []
+    for sibling in headings[0].next_siblings:
+        if getattr(sibling, "name", None) and re.fullmatch(r"h[1-6]", sibling.name):
+            if sibling.get_text(" ", strip=True):
+                break
+            continue
+        parts.append(sibling.get_text(" ", strip=True) if hasattr(sibling, "get_text") else str(sibling))
+    matches = list(RE_INLINE_RANGE.finditer(" ".join(parts)))
+    if len(matches) != 1:
+        return None, None
+    match = matches[0]
+    values = []
+    for offset in (1, 4):
+        date, clock, zone = match.group(offset, offset + 1, offset + 2)
+        try:
+            local = datetime.strptime(
+                f"{date.replace(',', '')} {clock.replace('.', '')}", "%B %d %Y %I:%M %p")
+        except ValueError:
+            return None, None
+        hours = {"PST": -8, "PDT": -7, "UTC": 0, "GMT": 0}[zone.upper()]
+        values.append(local.replace(tzinfo=timezone(timedelta(hours=hours))).astimezone(timezone.utc))
+    return tuple(values) if values[1] > values[0] else (None, None)
+
 def get_ffxiv_events():
     events = []
     print("Fetching FFXIV topics from lodestonenews.com…")
@@ -184,10 +226,12 @@ def get_ffxiv_events():
             topic_url = item.get("url", "")
             post_time = datetime.fromisoformat(item["time"].replace("Z", "+00:00"))
             start, end = None, None
+            inline_start, inline_end = None, None
             # try scraping the special event page for a full date range
             tr = get(topic_url)
             if tr:
                 soup = BeautifulSoup(tr.text, "html.parser")
+                inline_start, inline_end = extract_inline_schedule(soup)
                 for a in soup.find_all("a", href=True):
                     href = a["href"]
                     if re.search(r"/lodestone/special/\d{4}/", href) and "utm" not in href:
@@ -196,17 +240,22 @@ def get_ffxiv_events():
                         if start:
                             break
             # fallback: parse date from the title itself ("Begins February 26!")
+            uid_start = None
             if not start:
                 start = extract_date_from_title(title, post_time)
-            if not start:
-                start = post_time
+                if not start:
+                    start = post_time
+                if inline_start:
+                    # Retain the fallback identity subscribers already received.
+                    uid_start = start
+                    start, end = inline_start, inline_end
             if not end:
                 end = start + timedelta(days=14)
             events.append(make_event(
                 summary=f"[FFXIV] {title}",
                 dtstart=start, dtend=end,
                 description=item.get("description", ""),
-                url=topic_url, source="ffxiv",
+                url=topic_url, source="ffxiv", uid_start=uid_start,
             ))
 
     print("Fetching FFXIV maintenance from lodestonenews.com…")
